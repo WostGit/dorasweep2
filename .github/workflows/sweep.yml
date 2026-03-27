@@ -58,7 +58,7 @@ jobs:
           MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
           REP_RATES = [16, 32, 64]
           ITERS = 220
-          LR = "3e-5"
+          LR = "5e-6"
 
           # Keep the canary schema aligned with the task schema.
           base_examples = [
